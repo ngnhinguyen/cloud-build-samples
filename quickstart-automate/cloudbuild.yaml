@@ -16,5 +16,5 @@
 steps:
   - name: golang
     args: ['go', 'run', 'quickstart-automate/main.go']
-logs_bucket: 'cr-vs-gke'
+logs_bucket: 'cr-vs-gke-bucket.storage.googleapis.com'
 # [END cloudbuild_quickstart_automate]
